@@ -11,8 +11,10 @@ class Rating extends React.Component {
     };
   }
   
-  componentWillReceiveProps() {
-    
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      
+    })
   }
 
   render() {
