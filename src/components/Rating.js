@@ -11,7 +11,9 @@ class Rating extends React.Component {
     };
   }
   
-  componentWillReceiveProps()
+  componentWillReceiveProps() {
+    
+  }
 
   render() {
     let trend = 'stable';
