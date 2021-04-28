@@ -10,7 +10,7 @@ class Pikachu extends React.Component {
     };
   }
   
-  componentDidUpdate() {
+  componentDidUpdate(prevProp, prevState) {
     this.props.resizePikachu()
   }
   
